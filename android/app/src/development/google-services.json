@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "764320084878",
+    "project_id": "develpoment-88ab1",
+    "storage_bucket": "develpoment-88ab1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764320084878:android:5e2742b4a3cde82448aadf",
+        "android_client_info": {
+          "package_name": "com.example.doctor_appoinment.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9wqpWYVxEtR6u1FQ1l_LWWHqjZD2uqn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
