@@ -1,11 +1,11 @@
-import 'package:doctor_appoinment/core/di/dependency_injection.dart';
-import 'package:doctor_appoinment/core/routing/routes.dart';
-import 'package:doctor_appoinment/features/home/ui/home_screen.dart';
-import 'package:doctor_appoinment/features/login/logic/cubit/login_cubit.dart';
-import 'package:doctor_appoinment/features/login/ui/login_screen.dart';
-import 'package:doctor_appoinment/features/onboarding/onboarding_screen.dart';
-import 'package:doctor_appoinment/features/signup/logic/cubit/signup_cubit.dart';
-import 'package:doctor_appoinment/features/signup/ui/signup_screen.dart';
+import '../di/dependency_injection.dart';
+import 'routes.dart';
+import '../../features/home/ui/home_screen.dart';
+import '../../features/login/logic/cubit/login_cubit.dart';
+import '../../features/login/ui/login_screen.dart';
+import '../../features/onboarding/onboarding_screen.dart';
+import '../../features/signup/logic/cubit/signup_cubit.dart';
+import '../../features/signup/ui/signup_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

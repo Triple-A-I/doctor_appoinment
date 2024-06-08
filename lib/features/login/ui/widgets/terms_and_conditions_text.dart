@@ -1,4 +1,4 @@
-import 'package:doctor_appoinment/core/theme/styles.dart';
+import '../../../../core/theme/styles.dart';
 import 'package:flutter/material.dart';
 
 class TermsAndConditionsText extends StatelessWidget {

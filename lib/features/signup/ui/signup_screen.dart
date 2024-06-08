@@ -1,5 +1,5 @@
-import 'package:doctor_appoinment/core/helpers/spacing.dart';
-import 'package:doctor_appoinment/core/theme/styles.dart';
+import '../../../core/helpers/spacing.dart';
+import '../../../core/theme/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

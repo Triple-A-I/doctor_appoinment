@@ -1,4 +1,4 @@
-import 'package:doctor_appoinment/core/helpers/extension.dart';
+import '../../../../core/helpers/extension.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 

@@ -1,4 +1,4 @@
-import 'package:doctor_appoinment/core/helpers/spacing.dart';
+import '../../../../core/helpers/spacing.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../core/theme/colors.dart';

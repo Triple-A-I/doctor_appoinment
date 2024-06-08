@@ -1,5 +1,5 @@
-import 'package:doctor_appoinment/core/theme/images_manager.dart';
-import 'package:doctor_appoinment/core/theme/styles.dart';
+import '../../../core/theme/images_manager.dart';
+import '../../../core/theme/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';

@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:doctor_appoinment/core/networking/api_constants.dart';
+import 'api_constants.dart';
 
 import 'api_error_model.dart';
 

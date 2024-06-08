@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:doctor_appoinment/features/login/data/models/login_request_body.dart';
-import 'package:doctor_appoinment/features/login/data/models/login_response.dart';
-import 'package:doctor_appoinment/features/signup/data/models/signup_request_body.dart';
-import 'package:doctor_appoinment/features/signup/data/models/signup_response.dart';
+import '../../features/login/data/models/login_request_body.dart';
+import '../../features/login/data/models/login_response.dart';
+import '../../features/signup/data/models/signup_request_body.dart';
+import '../../features/signup/data/models/signup_response.dart';
 import 'package:retrofit/retrofit.dart';
 
 import 'api_constants.dart';

@@ -1,7 +1,7 @@
-import 'package:doctor_appoinment/core/helpers/extension.dart';
-import 'package:doctor_appoinment/core/routing/routes.dart';
-import 'package:doctor_appoinment/core/theme/colors.dart';
-import 'package:doctor_appoinment/core/theme/styles.dart';
+import '../../../core/helpers/extension.dart';
+import '../../../core/routing/routes.dart';
+import '../../../core/theme/colors.dart';
+import '../../../core/theme/styles.dart';
 import 'package:flutter/material.dart';
 
 class GetStartedButton extends StatelessWidget {

@@ -1,4 +1,4 @@
-import 'package:doctor_appoinment/features/login/logic/cubit/login_cubit.dart';
+import '../../logic/cubit/login_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

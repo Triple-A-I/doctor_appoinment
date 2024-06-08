@@ -1,9 +1,9 @@
-import 'package:doctor_appoinment/features/onboarding/widgets/doc_logo_and_name.dart';
-import 'package:doctor_appoinment/features/onboarding/widgets/doctor_image_and_text.dart';
-import 'package:doctor_appoinment/features/onboarding/widgets/get_started_button.dart';
+import 'widgets/doc_logo_and_name.dart';
+import 'widgets/doctor_image_and_text.dart';
+import 'widgets/get_started_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:doctor_appoinment/core/theme/styles.dart';
+import '../../core/theme/styles.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});

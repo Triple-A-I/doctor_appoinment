@@ -1,9 +1,9 @@
-import 'package:doctor_appoinment/core/helpers/spacing.dart';
-import 'package:doctor_appoinment/core/theme/styles.dart';
-import 'package:doctor_appoinment/core/widgets/app_text_button.dart';
-import 'package:doctor_appoinment/features/login/ui/widgets/do_not_have_account_text.dart';
-import 'package:doctor_appoinment/features/login/ui/widgets/email_and_password.dart';
-import 'package:doctor_appoinment/features/login/ui/widgets/terms_and_conditions_text.dart';
+import '../../../core/helpers/spacing.dart';
+import '../../../core/theme/styles.dart';
+import '../../../core/widgets/app_text_button.dart';
+import 'widgets/do_not_have_account_text.dart';
+import 'widgets/email_and_password.dart';
+import 'widgets/terms_and_conditions_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

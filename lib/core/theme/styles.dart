@@ -1,5 +1,5 @@
-import 'package:doctor_appoinment/core/theme/colors.dart';
-import 'package:doctor_appoinment/core/theme/font_weight_helper.dart';
+import 'colors.dart';
+import 'font_weight_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -19,10 +19,25 @@ class TextStyles {
     color: ColorsManager.darkBlue,
     fontWeight: FontWeightHelper.medium,
   );
+  static TextStyle font18DarkBlueBold = TextStyle(
+    fontSize: 18.sp,
+    color: ColorsManager.darkBlue,
+    fontWeight: FontWeightHelper.bold,
+  );
+  static TextStyle font18WhiteMdeium = TextStyle(
+    fontSize: 18.sp,
+    color: Colors.white,
+    fontWeight: FontWeightHelper.medium,
+  );
   static TextStyle font13DarkBlueMedium = TextStyle(
     fontSize: 13.sp,
     color: ColorsManager.darkBlue,
     fontWeight: FontWeightHelper.medium,
+  );
+  static TextStyle font12DarkBlueRegular = TextStyle(
+    fontSize: 12.sp,
+    color: ColorsManager.darkBlue,
+    fontWeight: FontWeightHelper.regular,
   );
   static TextStyle font13DarkBlueRegular = TextStyle(
     fontSize: 13.sp,
@@ -47,6 +62,21 @@ class TextStyles {
   static TextStyle font13GrayRegular = TextStyle(
     fontSize: 13.sp,
     color: ColorsManager.gray,
+    fontWeight: FontWeightHelper.regular,
+  );
+  static TextStyle font12GrayRegular = TextStyle(
+    fontSize: 12.sp,
+    color: ColorsManager.gray,
+    fontWeight: FontWeightHelper.regular,
+  );
+  static TextStyle font12GrayMedium = TextStyle(
+    fontSize: 12.sp,
+    color: ColorsManager.gray,
+    fontWeight: FontWeightHelper.medium,
+  );
+  static TextStyle font12BlueRegular = TextStyle(
+    fontSize: 12.sp,
+    color: ColorsManager.mainBlue,
     fontWeight: FontWeightHelper.regular,
   );
   static TextStyle font14GrayRegular = TextStyle(
