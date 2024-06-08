@@ -88,7 +88,7 @@ class _SignupFormState extends State<SignupForm> {
           AppTextFormField(
             controller: context.read<SignupCubit>().passwordController,
             hintText: 'Password',
-            isObsecureText: isPasswordObscureText,
+            isObscureText: isPasswordObscureText,
             suffixIcon: GestureDetector(
               onTap: () {
                 setState(() {
@@ -110,7 +110,7 @@ class _SignupFormState extends State<SignupForm> {
             controller:
                 context.read<SignupCubit>().passwordConfirmationController,
             hintText: 'Password Confirmation',
-            isObsecureText: isPasswordConfirmationObscureText,
+            isObscureText: isPasswordConfirmationObscureText,
             suffixIcon: GestureDetector(
               onTap: () {
                 setState(() {

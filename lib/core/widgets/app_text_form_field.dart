@@ -7,13 +7,12 @@ class AppTextFormField extends StatelessWidget {
   final EdgeInsetsGeometry? contentPadding;
   final InputBorder? focusedBorder;
   final InputBorder? enabledBorder;
-  final InputBorder? errorBorder;
   final TextStyle? inputTextStyle;
-  final TextStyle? inputHintStyle;
+  final TextStyle? hintStyle;
   final String hintText;
-  final bool? isObsecureText;
+  final bool? isObscureText;
   final Widget? suffixIcon;
-  final Color? fillColor;
+  final Color? backgroundColor;
   final TextEditingController? controller;
   final Function(String?) validator;
   const AppTextFormField({
@@ -22,14 +21,13 @@ class AppTextFormField extends StatelessWidget {
     this.focusedBorder,
     this.enabledBorder,
     this.inputTextStyle,
-    this.inputHintStyle,
+    this.hintStyle,
     required this.hintText,
-    this.isObsecureText,
+    this.isObscureText,
     this.suffixIcon,
-    this.fillColor,
+    this.backgroundColor,
     this.controller,
     required this.validator,
-    this.errorBorder,
   });
 
   @override
@@ -38,49 +36,48 @@ class AppTextFormField extends StatelessWidget {
       controller: controller,
       decoration: InputDecoration(
         isDense: true,
-        fillColor: fillColor ?? ColorsManager.moreLightGray,
-        filled: true,
         contentPadding: contentPadding ??
-            EdgeInsets.symmetric(
-              vertical: 20.h,
-              horizontal: 18.w,
-            ),
+            EdgeInsets.symmetric(horizontal: 20.w, vertical: 18.h),
         focusedBorder: focusedBorder ??
             OutlineInputBorder(
-                borderSide: const BorderSide(
-                  color: ColorsManager.mainBlue,
-                  width: 1.3,
-                ),
-                borderRadius: BorderRadius.circular(16)),
+              borderSide: const BorderSide(
+                color: ColorsManager.mainBlue,
+                width: 1.3,
+              ),
+              borderRadius: BorderRadius.circular(16.0),
+            ),
         enabledBorder: enabledBorder ??
             OutlineInputBorder(
-                borderSide: const BorderSide(
-                  color: ColorsManager.lighterGray,
-                  width: 1.3,
-                ),
-                borderRadius: BorderRadius.circular(16)),
-        errorBorder: errorBorder ??
-            OutlineInputBorder(
-                borderSide: const BorderSide(
-                  color: ColorsManager.error,
-                  width: 1.3,
-                ),
-                borderRadius: BorderRadius.circular(16)),
-        focusedErrorBorder: enabledBorder ??
-            OutlineInputBorder(
-                borderSide: const BorderSide(
-                  color: ColorsManager.error,
-                  width: 1.3,
-                ),
-                borderRadius: BorderRadius.circular(16)),
-        hintStyle: inputHintStyle ?? TextStyles.font14LightGrayRegular,
+              borderSide: const BorderSide(
+                color: ColorsManager.lighterGray,
+                width: 1.3,
+              ),
+              borderRadius: BorderRadius.circular(16.0),
+            ),
+        errorBorder: OutlineInputBorder(
+          borderSide: const BorderSide(
+            color: Colors.red,
+            width: 1.3,
+          ),
+          borderRadius: BorderRadius.circular(16.0),
+        ),
+        focusedErrorBorder: OutlineInputBorder(
+          borderSide: const BorderSide(
+            color: Colors.red,
+            width: 1.3,
+          ),
+          borderRadius: BorderRadius.circular(16.0),
+        ),
+        hintStyle: hintStyle ?? TextStyles.font14LightGrayRegular,
         hintText: hintText,
         suffixIcon: suffixIcon,
+        fillColor: backgroundColor ?? ColorsManager.moreLightGray,
+        filled: true,
       ),
-      obscureText: isObsecureText ?? false,
-      style: inputTextStyle ?? TextStyles.font14DarkBlueMedium,
+      obscureText: isObscureText ?? false,
+      style: TextStyles.font14DarkBlueMedium,
       validator: (value) {
-        validator(value);
+        return validator(value);
       },
     );
   }
