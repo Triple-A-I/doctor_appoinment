@@ -2,14 +2,14 @@
     "version": "0.2.0",
     "configurations": [
       {
-        "name": "Circles Development",
+        "name": "Roma Development",
         "request": "launch",
         "type": "dart",
         "program": "lib/main_development.dart",
         "args": ["--flavor", "Development", "--target", "lib/main_development.dart" ]
       },
       {
-        "name": "Circles Production",
+        "name": "Roma Production",
         "request": "launch",
         "type": "dart",
         "program": "lib/main_production.dart",
