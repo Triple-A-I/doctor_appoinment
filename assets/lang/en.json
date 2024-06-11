@@ -1,0 +1,9 @@
+{
+    "settings_title": "Settings",
+    "settings_change_language": "Change Language to {language}",
+    "home_welcome": "Welcome {name}!",
+    "home_greeting_morning": "Good morning, {name}!",
+    "home_greeting_afternoon": "Good afternoon, {name}!",
+    "home_greeting_evening": "Good evening, {name}!"
+  }
+  

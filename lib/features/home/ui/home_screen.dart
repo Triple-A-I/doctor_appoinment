@@ -1,5 +1,11 @@
-import 'package:doctor_appoinment/features/home/ui/widgets/doctors_listview.dart';
-import 'package:doctor_appoinment/features/home/ui/widgets/doctors_speciality_listview.dart';
+import '../logic/cubit/home_cubit.dart';
+import '../logic/cubit/home_state.dart';
+import 'widgets/specializations_and_doctors_bloc_builder.dart';
+import 'package:flutter/widgets.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'widgets/doctors_listview.dart';
+import 'widgets/doctors_speciality_listview.dart';
 
 import '../../../core/helpers/spacing.dart';
 import 'widgets/doctors_speciality_see_all.dart';
@@ -14,9 +20,9 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.white,
-        body: SafeArea(
-            child: Container(
+      backgroundColor: Colors.white,
+      body: SafeArea(
+        child: Container(
           width: double.infinity,
           margin: const EdgeInsets.fromLTRB(20, 16, 20, 28),
           child: Column(
@@ -26,10 +32,12 @@ class HomeScreen extends StatelessWidget {
               const DoctorsBlueContainer(),
               verticalSpacing(24),
               const DoctorsSpecialitySeeAll(),
-              const DoctorsSpecialityListView(),
-              const DoctorsListView(),
+              verticalSpacing(18),
+              const SpecilaizationsAndDoctorsBlocBuilder()
             ],
           ),
-        )));
+        ),
+      ),
+    );
   }
 }

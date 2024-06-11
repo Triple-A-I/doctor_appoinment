@@ -26,10 +26,14 @@ class HomeTopBar extends StatelessWidget {
         ),
         const Spacer(),
         CircleAvatar(
-          radius: 24,
+          // radius: 24,
           backgroundColor: ColorsManager.moreLighterGray,
-          child: SvgPicture.asset(
-              ImagesManager.logo), //todo: this will be notifications
+          child: Image.asset(
+            ImagesManager.notifications,
+            fit: BoxFit.cover,
+            width: 35,
+            height: 35,
+          ), //todo: this will be notifications
         )
       ],
     );

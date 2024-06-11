@@ -1,0 +1,9 @@
+{
+    "settings_title": "الإعدادات",
+    "settings_change_language": "تغيير اللغة إلى {language}",
+    "home_welcome": "مرحبا {name}!",
+    "home_greeting_morning": "صباح الخير، {name}!",
+    "home_greeting_afternoon": "مساء الخير، {name}!",
+    "home_greeting_evening": "مساء النور، {name}!"
+  }
+  
