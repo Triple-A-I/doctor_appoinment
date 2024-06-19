@@ -1,4 +1,3 @@
-import '../../features/localization/ui/change_language.dart';
 
 import '../../features/home/logic/cubit/home_cubit.dart';
 
@@ -23,11 +22,7 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (_) => const OnBoardingScreen(),
         );
-      case Routes.settingsScreen:
-        return MaterialPageRoute(
-          builder: (_) => const SettingsPage(),
-        );
-
+    
       case Routes.loginScreen:
         return MaterialPageRoute(
           builder: (_) => BlocProvider(

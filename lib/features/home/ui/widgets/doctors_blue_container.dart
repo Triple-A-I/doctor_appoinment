@@ -32,7 +32,8 @@ class DoctorsBlueContainer extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "Book and\nschedule with\nnearest doctor",
+                  // "Book and\nschedule with\nnearest doctor",
+                  "Connect and\nSocialize with\nDoctors Circles",
                   style: TextStyles.font18WhiteMdeium,
                 ),
                 verticalSpacing(16),
@@ -44,7 +45,8 @@ class DoctorsBlueContainer extends StatelessWidget {
                               borderRadius: BorderRadius.circular(48))),
                       onPressed: () {},
                       child: Text(
-                        "Find nearby",
+                        // "Find nearby",
+                        "Find your interest",
                         style: TextStyles.font12BlueRegular,
                       )),
                 )
